@@ -59,6 +59,20 @@
     <string name="light_brightness_title">Livelli di luminosità</string>
     <string name="light_brightness_normal">Normale</string>
     <string name="light_brightness_zen">Non Disturbare</string>
+    <string name="charging_control_title">Controllo della carica</string>
+    <string name="charging_control_enable_title">Abilita il controllo della carica</string>
+    <string name="charging_control_mode_title">Modalità di carica</string>
+    <string name="charging_control_mode_auto_title">Pianificazione automatica</string>
+    <string name="charging_control_mode_auto_summary">Determina automaticamente quando avviare la carica in base alle sveglie impostate</string>
+    <string name="charging_control_mode_custom_title">Pianificazione personalizzata</string>
+    <string name="charging_control_mode_custom_summary">Imposta un orario di completamento della carica</string>
+    <string name="charging_control_mode_limit_title">Limite di carica</string>
+    <string name="charging_control_mode_limit_summary">Limita la carica ad una determinata percentuale</string>
+    <string name="charging_control_start_time_title">Orario di inizio</string>
+    <string name="charging_control_start_time_summary">Il controllo della carica si attiva quando si inizia la carica dopo le %s</string>
+    <string name="charging_control_target_time_title">Orario di completamento della carica</string>
+    <string name="charging_control_target_time_summary">La batteria sarà completamente carica alle %s</string>
+    <string name="charging_control_limit_title">Limite</string>
     <string name="battery_light_title">Indicatore batteria</string>
     <string name="battery_light_enable_title">Attiva l\'indicatore della batteria</string>
     <string name="battery_low_pulse_title">Lampeggia con batteria scarica</string>
@@ -195,7 +209,7 @@
     <string name="backlight_summary_disabled">Disattivata</string>
     <string name="backlight_summary_enabled_with_timeout">Attivata per <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Attivata</string>
-    <string name="disable_navkeys_title">Abilità barra di navigazione su schermo</string>
+    <string name="disable_navkeys_title">Abilita barra di navigazione su schermo</string>
     <string name="disable_navkeys_summary">Attiva la barra di navigazione a schermo e disattiva i pulsanti fisici</string>
     <string name="swap_capacitive_keys_title">Inverti pulsanti capacitivi</string>
     <string name="swap_capacitive_keys_summary">Inverti la posizione dei pulsanti \"recenti\" ed \"indietro\" </string>
@@ -392,6 +406,7 @@
     <string name="network_traffic_mode_up">Solo upload</string>
     <string name="network_traffic_mode_down">Solo download</string>
     <string name="network_traffic_mode_all">Upload e download</string>
+    <string name="network_traffic_position_title">Posizione</string>
     <string name="network_traffic_autohide">Nascondi automaticamente</string>
     <string name="network_traffic_autohide_summary">Nascondi l\'indicatore di traffico quando non c\'è nessuna attività</string>
     <string name="network_traffic_units_title">Unità di misura del traffico</string>
@@ -505,11 +520,11 @@
     <string name="trust_feature_security_patches_value_medium">Non aggiornate da qualche mese</string>
     <string name="trust_feature_security_patches_value_old">Non aggiornate</string>
     <string name="trust_feature_security_patches_explain">Le patch di sicurezza vengono rilasciate mensilmente da Google in cooperazione con i produttori di SoC per risolvere problemi che potrebbero essere sfruttati dalle app dannose per aggirare le restrizioni di sicurezza e causare danni permanenti al dispositivo. Le patch rese disponibili da Google sono applicate a tutti i dispositivi supportati, ma quelle relative ai componenti proprietari possono essere applicati solo dal produttore del dispositivo. Per mantenere il dispositivo sicuro, controlla che la tua versione di LineageOS sia sempre aggiornata ed eventualmente assicurati che i componenti proprietari come firmware e immagine vendor siano quelli raccomandati da LineageOS.</string>
-    <string name="trust_feature_encryption">Criptazione</string>
+    <string name="trust_feature_encryption">Cifratura</string>
     <string name="trust_feature_encryption_value_enabled">Attiva</string>
-    <string name="trust_feature_encryption_value_nolock">Necessita di una schermata di sblocco sicura</string>
+    <string name="trust_feature_encryption_value_nolock">Necessita di un blocco schermo sicuro</string>
     <string name="trust_feature_encryption_value_disabled">Disattivata</string>
-    <string name="trust_feature_encryption_explain">Abilitando la criptazione del dispositivo viene bloccato l\'accesso ai tuoi dati quando il dispositivo non è acceso. Questo risulta particolarmente importante nel caso in cui il dispositivo venisse rubato: in tal caso l\'accesso ai tuoi messaggi, contatti e altre informazioni personali verrà impedito fino all\'inserimento della tua password.\nPer rendere la criptazione del dispositivo più efficace è importante attivare un blocco schermo sicuro.</string>
+    <string name="trust_feature_encryption_explain">Abilitando la cifratura del dispositivo, viene bloccato l\'accesso ai tuoi dati quando il dispositivo non è acceso. Questo risulta particolarmente importante nel caso in cui il dispositivo venisse rubato: in tal caso l\'accesso ai tuoi messaggi, contatti e altre informazioni personali verrà impedito fino all\'inserimento della tua password.\nPer rendere la cifratura del dispositivo più efficace è importante attivare un blocco schermo sicuro.</string>
     <string name="trust_category_tools">Privacy</string>
     <string name="trust_notification_alerts_title">Avvisi di sicurezza</string>
     <string name="trust_warnings_alerts_intro">Puoi scegliere quali problemi di sicurezza devono essere segnalati. Per la tua sicurezza è consigliabile attivarli tutti</string>
