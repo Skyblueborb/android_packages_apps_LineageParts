@@ -58,6 +58,12 @@
             android:summary="@string/bluetooth_always_show_icon_summary"
             android:defaultValue="false" />
 
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="show_wifi_standard_icon"
+            android:title="@string/show_wifi_standard_icon_title"
+            android:summary="@string/show_wifi_standard_icon_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -719,4 +719,8 @@
     <!-- Always show Bluetooth icon -->
     <string name="bluetooth_always_show_icon_title">Always show Bluetooth icon</string>
     <string name="bluetooth_always_show_icon_summary">Show even when no device is connected</string>
+
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Show Wi-Fi standard icon</string>
+    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
 </resources>
