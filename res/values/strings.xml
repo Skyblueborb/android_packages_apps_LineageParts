@@ -715,4 +715,8 @@
     <string name="network_restriction_manager_unblock_all_apps" >Unblock all apps</string>
     <string name="network_restriction_manager_apps">Apps</string>
     <string name="network_restriction_manager_no_apps_to_show">No apps to show</string>
+
+    <!-- Always show Bluetooth icon -->
+    <string name="bluetooth_always_show_icon_title">Always show Bluetooth icon</string>
+    <string name="bluetooth_always_show_icon_summary">Show even when no device is connected</string>
 </resources>

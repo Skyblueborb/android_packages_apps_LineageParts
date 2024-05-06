@@ -52,6 +52,12 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </PreferenceScreen>
 
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="bluetooth_always_show_icon"
+            android:title="@string/bluetooth_always_show_icon_title"
+            android:summary="@string/bluetooth_always_show_icon_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
